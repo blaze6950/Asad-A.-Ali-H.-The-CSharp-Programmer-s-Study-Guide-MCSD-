@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstProgram", "FirstProgra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Challenges", "Code Challenges", "{B9871A1A-D616-4BF9-8625-2230D0D7284D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 1- Develop an Arithmetic Calculator Application", "Challenge 1- Develop an Arithmetic Calculator Application\Challenge 1- Develop an Arithmetic Calculator Application.csproj", "{908C8B76-8FE6-422C-A478-CC7B3D0AFF45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,9 +19,16 @@ Global
 		{C3EE4878-127D-4178-9C19-D1DEF444AE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3EE4878-127D-4178-9C19-D1DEF444AE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3EE4878-127D-4178-9C19-D1DEF444AE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908C8B76-8FE6-422C-A478-CC7B3D0AFF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908C8B76-8FE6-422C-A478-CC7B3D0AFF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908C8B76-8FE6-422C-A478-CC7B3D0AFF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908C8B76-8FE6-422C-A478-CC7B3D0AFF45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{908C8B76-8FE6-422C-A478-CC7B3D0AFF45} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D91E2F1-8C3D-4C02-A5E0-586810FA1B66}
