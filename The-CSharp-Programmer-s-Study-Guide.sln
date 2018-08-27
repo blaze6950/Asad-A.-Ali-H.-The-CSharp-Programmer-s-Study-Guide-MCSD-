@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Challenges", "Code Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 1- Develop an Arithmetic Calculator Application", "Challenge 1- Develop an Arithmetic Calculator Application\Challenge 1- Develop an Arithmetic Calculator Application.csproj", "{908C8B76-8FE6-422C-A478-CC7B3D0AFF45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 2-Develop a Student Report Card Application", "Challenge 2-Develop a Student Report Card Application\Challenge 2-Develop a Student Report Card Application.csproj", "{E8F1E0F6-C118-45C0-86AA-9460C127B987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{908C8B76-8FE6-422C-A478-CC7B3D0AFF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{908C8B76-8FE6-422C-A478-CC7B3D0AFF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{908C8B76-8FE6-422C-A478-CC7B3D0AFF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8F1E0F6-C118-45C0-86AA-9460C127B987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F1E0F6-C118-45C0-86AA-9460C127B987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F1E0F6-C118-45C0-86AA-9460C127B987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F1E0F6-C118-45C0-86AA-9460C127B987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{908C8B76-8FE6-422C-A478-CC7B3D0AFF45} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
+		{E8F1E0F6-C118-45C0-86AA-9460C127B987} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D91E2F1-8C3D-4C02-A5E0-586810FA1B66}
