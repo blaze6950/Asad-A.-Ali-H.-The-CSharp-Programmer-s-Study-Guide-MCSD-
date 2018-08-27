@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 1- Develop an Ari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 2-Develop a Student Report Card Application", "Challenge 2-Develop a Student Report Card Application\Challenge 2-Develop a Student Report Card Application.csproj", "{E8F1E0F6-C118-45C0-86AA-9460C127B987}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 3-Develop Temperature Converter Application", "Challenge 3-Develop Temperature Converter Application\Challenge 3-Develop Temperature Converter Application.csproj", "{5982C76B-AEC8-41A7-A675-628B77E29896}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{E8F1E0F6-C118-45C0-86AA-9460C127B987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8F1E0F6-C118-45C0-86AA-9460C127B987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8F1E0F6-C118-45C0-86AA-9460C127B987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5982C76B-AEC8-41A7-A675-628B77E29896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5982C76B-AEC8-41A7-A675-628B77E29896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5982C76B-AEC8-41A7-A675-628B77E29896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5982C76B-AEC8-41A7-A675-628B77E29896}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{908C8B76-8FE6-422C-A478-CC7B3D0AFF45} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 		{E8F1E0F6-C118-45C0-86AA-9460C127B987} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
+		{5982C76B-AEC8-41A7-A675-628B77E29896} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D91E2F1-8C3D-4C02-A5E0-586810FA1B66}
