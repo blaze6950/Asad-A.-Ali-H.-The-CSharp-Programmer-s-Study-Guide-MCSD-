@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 3-Develop Tempera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 4-Develop a Transformer", "Challenge 4-Develop a Transformer\Challenge 4-Develop a Transformer.csproj", "{8637C794-659A-4204-8CE9-D30511DED38B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 5-Develop Steve Jobs Laundry System", "Challenge 5-Develop Steve Jobs Laundry System\Challenge 5-Develop Steve Jobs Laundry System.csproj", "{4BDBE5F5-6432-4D38-B032-76CD06E56BFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{8637C794-659A-4204-8CE9-D30511DED38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8637C794-659A-4204-8CE9-D30511DED38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8637C794-659A-4204-8CE9-D30511DED38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDBE5F5-6432-4D38-B032-76CD06E56BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDBE5F5-6432-4D38-B032-76CD06E56BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDBE5F5-6432-4D38-B032-76CD06E56BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDBE5F5-6432-4D38-B032-76CD06E56BFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{E8F1E0F6-C118-45C0-86AA-9460C127B987} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 		{5982C76B-AEC8-41A7-A675-628B77E29896} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 		{8637C794-659A-4204-8CE9-D30511DED38B} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
+		{4BDBE5F5-6432-4D38-B032-76CD06E56BFD} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D91E2F1-8C3D-4C02-A5E0-586810FA1B66}
