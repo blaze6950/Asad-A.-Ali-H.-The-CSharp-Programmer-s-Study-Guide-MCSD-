@@ -2,11 +2,11 @@
 {
     public class CelsiusTemperature
     {
-        private double _temp = 0;
+        private double _temp;
 
-        public CelsiusTemperature(double tC)
+        public CelsiusTemperature(double temp)
         {
-            _temp = tC;
+            _temp = temp;
         }
 
         public double Temp
