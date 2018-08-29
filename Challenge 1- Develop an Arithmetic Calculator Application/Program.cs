@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Challenge_1__Develop_an_Arithmetic_Calculator_Application
 {
@@ -17,7 +12,7 @@ namespace Challenge_1__Develop_an_Arithmetic_Calculator_Application
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             StartCalc();
         }
@@ -34,11 +29,11 @@ namespace Challenge_1__Develop_an_Arithmetic_Calculator_Application
                     CalcActions action;
                     do
                     {
-                        System.Console.Clear();
+                        Console.Clear();
                         Console.WriteLine("Press any following key to perform an arithmetic operation:");
                         Console.WriteLine("1 - Addition\n2 - Subtraction\n3 - Multipliation\n4 - Division");
                         input = Console.ReadKey().KeyChar.ToString();
-                    } while (!CalcActions.TryParse(input, out action));
+                    } while (!Enum.TryParse(input, out action));
 
                     GetNumbers(out num1, out num2);
 
@@ -62,11 +57,12 @@ namespace Challenge_1__Develop_an_Arithmetic_Calculator_Application
                     }
 
                     PrintResult(num1, num2, res, action);
-                } while (isAgain());
+                } while (IsAgain());
             }
+            // ReSharper disable once FunctionNeverReturns
         }
 
-        private static bool isAgain()
+        private static bool IsAgain()
         {
             while (true)
             {
