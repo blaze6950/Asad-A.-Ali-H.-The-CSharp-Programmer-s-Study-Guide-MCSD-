@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Challenge_8_Invoke_an_event_if_a_person_s_name_is_changed
+﻿namespace Challenge_8_Invoke_an_event_if_a_person_s_name_is_changed
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Person newPerson = new Person();
             newPerson.Name = "Nikita";

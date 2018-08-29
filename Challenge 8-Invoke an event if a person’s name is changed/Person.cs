@@ -31,7 +31,7 @@ namespace Challenge_8_Invoke_an_event_if_a_person_s_name_is_changed
             get => _name;
             set
             {
-                NameChanged.Invoke(this, new PropertyChangedEventArgs(value));
+                if (NameChanged != null) NameChanged.Invoke(this, new PropertyChangedEventArgs(value));
             }
         }
     }
