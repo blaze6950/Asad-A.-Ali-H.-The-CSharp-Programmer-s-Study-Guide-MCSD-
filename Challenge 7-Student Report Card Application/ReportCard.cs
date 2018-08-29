@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 
 namespace Challenge_7_Student_Report_Card_Application
 {
@@ -65,7 +64,7 @@ namespace Challenge_7_Student_Report_Card_Application
         {
             if (ComputerScience > 0 && Math > 0 && English > 0)
             {
-                Result.Invoke(this, new PropertyChangedEventArgs(Sum.ToString()));
+                if (Result != null) Result.Invoke(this, new PropertyChangedEventArgs(Sum.ToString()));
             }
         }
     }

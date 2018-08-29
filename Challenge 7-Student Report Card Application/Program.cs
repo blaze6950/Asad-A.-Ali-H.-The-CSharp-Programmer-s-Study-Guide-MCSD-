@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Challenge_7_Student_Report_Card_Application
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int input;
             ReportCard report = new ReportCard();
