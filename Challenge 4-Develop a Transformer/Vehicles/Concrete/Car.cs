@@ -1,6 +1,7 @@
 ﻿using System;
+using Challenge_4_Develop_a_Transformer.Vehicles.Abstract;
 
-namespace Challenge_4_Develop_a_Transformer
+namespace Challenge_4_Develop_a_Transformer.Vehicles.Concrete
 {
     public class Car : Vehicle
     {
