@@ -83,6 +83,7 @@ namespace Challenge_6_Develop_a_Custom_Generic_Collection
             {
                 throw new ArgumentException("array is multidimensional or not enough space");
             }
+            // ReSharper disable once IsExpressionAlwaysTrue
             if (!(array[0] is T))
             {
                 throw new ArrayTypeMismatchException();

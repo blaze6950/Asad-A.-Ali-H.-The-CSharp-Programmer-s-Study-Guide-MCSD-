@@ -1,35 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.WebSockets;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Challenge_6_Develop_a_Custom_Generic_Collection
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            MyGenericCollection<int> _myGenericCollection = new MyGenericCollection<int>();
-            Console.WriteLine(_myGenericCollection.Count);
-            _myGenericCollection.Add(35);
-            _myGenericCollection.Add(45);
-            _myGenericCollection.Add(55);
-            foreach (var node in _myGenericCollection)
+            MyGenericCollection<int> myGenericCollection = new MyGenericCollection<int>();
+            Console.WriteLine(myGenericCollection.Count);
+            myGenericCollection.Add(35);
+            myGenericCollection.Add(45);
+            myGenericCollection.Add(55);
+            foreach (var node in myGenericCollection)
             {
                 Console.Write(node + "\t");
             }
             Console.WriteLine();
-            _myGenericCollection.Insert(2,0);
-            foreach (var node in _myGenericCollection)
+            myGenericCollection.Insert(2,0);
+            foreach (var node in myGenericCollection)
             {
                 Console.Write(node + "\t");
             }
             Console.WriteLine();
-            Console.WriteLine(_myGenericCollection.Contains(0));
-            _myGenericCollection.Remove(55);
-            foreach (var node in _myGenericCollection)
+            Console.WriteLine(myGenericCollection.Contains(0));
+            myGenericCollection.Remove(55);
+            foreach (var node in myGenericCollection)
             {
                 Console.Write(node + "\t");
             }
