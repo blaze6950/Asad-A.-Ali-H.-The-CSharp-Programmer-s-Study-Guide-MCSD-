@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 7-Student Report 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 8-Invoke an event if a person’s name is changed", "Challenge 8-Invoke an event if a person’s name is changed\Challenge 8-Invoke an event if a person’s name is changed.csproj", "{565FD81F-A151-458A-92DA-220B831D4D12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 9-Perform CRUD Operation using LINQ to Object", "Challenge 9-Perform CRUD Operation using LINQ to Object\Challenge 9-Perform CRUD Operation using LINQ to Object.csproj", "{AE241086-8325-4AE5-982F-3DEA68CED834}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{565FD81F-A151-458A-92DA-220B831D4D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{565FD81F-A151-458A-92DA-220B831D4D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{565FD81F-A151-458A-92DA-220B831D4D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE241086-8325-4AE5-982F-3DEA68CED834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE241086-8325-4AE5-982F-3DEA68CED834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE241086-8325-4AE5-982F-3DEA68CED834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE241086-8325-4AE5-982F-3DEA68CED834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{045AA3D8-A44F-4F01-B3FB-F2F827416FFB} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 		{77B544A1-61F1-424A-8086-3DC9068271F9} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 		{565FD81F-A151-458A-92DA-220B831D4D12} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
+		{AE241086-8325-4AE5-982F-3DEA68CED834} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D91E2F1-8C3D-4C02-A5E0-586810FA1B66}
