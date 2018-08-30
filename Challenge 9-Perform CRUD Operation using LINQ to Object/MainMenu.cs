@@ -130,7 +130,8 @@ namespace Challenge_9_Perform_CRUD_Operation_using_LINQ_to_Object
                     res = _countryManager.Countries.Where(c => c.CapitalCity.Contains(key)).Select(c => c);
                     break;
                 case 3:
-                    Int32.TryParse(key, out int num);
+                    int num;
+                    Int32.TryParse(key, out num);
                     res = _countryManager.Countries.Where(c =>
                             c.Population - (c.Population * 0.5) < num && c.Population + (c.Population * 0.5) > num)
                         .Select(c => c);
@@ -180,7 +181,8 @@ namespace Challenge_9_Perform_CRUD_Operation_using_LINQ_to_Object
                 Console.WriteLine($"{i}. {country}");
                 i++;
             }
-            Int32.TryParse(Console.ReadLine(), out int deleteResult);
+            int deleteResult;
+            Int32.TryParse(Console.ReadLine(), out deleteResult);
             _countryManager.Countries.RemoveAt(deleteResult - 1);
             Console.WriteLine("Remove completed successfully! Please press any key for continue...");
             Console.ReadKey();
@@ -197,7 +199,8 @@ namespace Challenge_9_Perform_CRUD_Operation_using_LINQ_to_Object
                 Console.WriteLine($"{i}. {country}");
                 i++;
             }
-            Int32.TryParse(Console.ReadLine(), out int updateResult);
+            int updateResult;
+            Int32.TryParse(Console.ReadLine(), out updateResult);
             UpdateCountry(updateResult - 1);
 
             Console.WriteLine("For continue press any key...");
@@ -229,7 +232,8 @@ namespace Challenge_9_Perform_CRUD_Operation_using_LINQ_to_Object
                     break;
                 case 3:
                     Console.WriteLine($"Enter new population (old: \"{_countryManager.Countries[index].Population}\"): ");
-                    Int32.TryParse(Console.ReadLine(), out int newPop);
+                    int newPop;
+                    Int32.TryParse(Console.ReadLine(), out newPop);
                     _countryManager.Countries[index].Population = newPop;
                     break;
             }
