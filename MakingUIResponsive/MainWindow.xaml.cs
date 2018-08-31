@@ -1,25 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace MakingUIResponsive
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow
     {
         public MainWindow()
         {
@@ -30,7 +19,7 @@ namespace MakingUIResponsive
         {
             Task task = Task.Run(() =>
             {
-                this.Dispatcher.BeginInvoke(new Action(() =>
+                Dispatcher.BeginInvoke(new Action(() =>
                 {
                     Label.Content = "Hello";
                 }));
@@ -38,7 +27,8 @@ namespace MakingUIResponsive
             await task;
         }
 
-        private Task myWait(int milisec)
+        // ReSharper disable once UnusedMember.Local
+        private Task MyWait(int milisec)
         {
             Task task = Task.Run(() =>
             {
@@ -47,7 +37,8 @@ namespace MakingUIResponsive
             return task;
         }
 
-        private async Task normal_methodAsync()
+        // ReSharper disable once UnusedMember.Local
+        private async Task Normal_methodAsync()
         {
             await DoComplicatedTaskAsync();
         }
