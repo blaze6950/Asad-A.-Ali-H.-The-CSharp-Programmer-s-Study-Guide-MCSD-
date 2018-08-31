@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 9-Perform CRUD Op
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 10-Print Html Code of google.com", "Challenge 10-Print Html Code of google.com\Challenge 10-Print Html Code of google.com.csproj", "{BE9FEFAC-C934-4955-A30C-26C451036FF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingUIResponsive", "MakingUIResponsive\MakingUIResponsive.csproj", "{2B544A3B-F9EA-4E01-95A4-8211F98D4301}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{BE9FEFAC-C934-4955-A30C-26C451036FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE9FEFAC-C934-4955-A30C-26C451036FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE9FEFAC-C934-4955-A30C-26C451036FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B544A3B-F9EA-4E01-95A4-8211F98D4301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B544A3B-F9EA-4E01-95A4-8211F98D4301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B544A3B-F9EA-4E01-95A4-8211F98D4301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B544A3B-F9EA-4E01-95A4-8211F98D4301}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
