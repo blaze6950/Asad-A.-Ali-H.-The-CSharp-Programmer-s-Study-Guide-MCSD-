@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 10-Print Html Cod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingUIResponsive", "MakingUIResponsive\MakingUIResponsive.csproj", "{2B544A3B-F9EA-4E01-95A4-8211F98D4301}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 11-Develop a Windows Form Project to Display HTML", "Challenge 11-Develop a Windows Form Project to Display HTML\Challenge 11-Develop a Windows Form Project to Display HTML.csproj", "{8EEE37CA-C3E5-416C-B034-454F3BE19CE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{2B544A3B-F9EA-4E01-95A4-8211F98D4301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B544A3B-F9EA-4E01-95A4-8211F98D4301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B544A3B-F9EA-4E01-95A4-8211F98D4301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EEE37CA-C3E5-416C-B034-454F3BE19CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EEE37CA-C3E5-416C-B034-454F3BE19CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EEE37CA-C3E5-416C-B034-454F3BE19CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EEE37CA-C3E5-416C-B034-454F3BE19CE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +104,7 @@ Global
 		{565FD81F-A151-458A-92DA-220B831D4D12} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 		{AE241086-8325-4AE5-982F-3DEA68CED834} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 		{BE9FEFAC-C934-4955-A30C-26C451036FF6} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
+		{8EEE37CA-C3E5-416C-B034-454F3BE19CE8} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D91E2F1-8C3D-4C02-A5E0-586810FA1B66}
