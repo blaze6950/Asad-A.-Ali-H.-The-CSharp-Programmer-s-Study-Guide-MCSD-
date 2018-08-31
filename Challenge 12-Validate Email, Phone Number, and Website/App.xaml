@@ -1,9 +1,0 @@
-﻿<Application x:Class="Challenge_12_Validate_Email__Phone_Number__and_Website.App"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Challenge_12_Validate_Email__Phone_Number__and_Website"
-             StartupUri="MainWindow.xaml">
-    <Application.Resources>
-         
-    </Application.Resources>
-</Application>
