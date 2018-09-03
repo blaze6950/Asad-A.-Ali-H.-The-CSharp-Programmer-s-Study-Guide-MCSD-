@@ -1,8 +1,16 @@
 ﻿// ReSharper disable NonReadonlyMemberInGetHashCode
+
+using System;
+
 namespace Challenge_9_Perform_CRUD_Operation_using_LINQ_to_Object
 {
+    [Serializable]
     public class Country
     {
+        private string _name;
+        private string _capitalCity;
+        private long _population;
+
         public Country()
         {
         }
@@ -14,9 +22,23 @@ namespace Challenge_9_Perform_CRUD_Operation_using_LINQ_to_Object
             Population = population;
         }
 
-        public string Name { get; set; }
-        public string CapitalCity { get; set; }
-        public long Population { get; set; }
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
+
+        public string CapitalCity
+        {
+            get { return _capitalCity; }
+            set { _capitalCity = value; }
+        }
+
+        public long Population
+        {
+            get { return _population; }
+            set { _population = value; }
+        }
 
         public override bool Equals(object obj)
         {

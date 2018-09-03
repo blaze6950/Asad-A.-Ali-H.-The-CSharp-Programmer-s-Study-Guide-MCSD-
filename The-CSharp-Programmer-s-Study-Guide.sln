@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 12-Validate Email
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 13-Download and Save Image", "Challenge 13-Download and Save Image\Challenge 13-Download and Save Image.csproj", "{6CF52011-8065-430F-9510-9A7105D6A4CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 14-Perform Deserialization", "Challenge 14-Perform Deserialization\Challenge 14-Perform Deserialization.csproj", "{E04A00B2-8EA8-4764-9CC0-6D303D6F7996}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{6CF52011-8065-430F-9510-9A7105D6A4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CF52011-8065-430F-9510-9A7105D6A4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CF52011-8065-430F-9510-9A7105D6A4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04A00B2-8EA8-4764-9CC0-6D303D6F7996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04A00B2-8EA8-4764-9CC0-6D303D6F7996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04A00B2-8EA8-4764-9CC0-6D303D6F7996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04A00B2-8EA8-4764-9CC0-6D303D6F7996}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +125,7 @@ Global
 		{8EEE37CA-C3E5-416C-B034-454F3BE19CE8} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 		{2E1994BD-8C8D-4E78-8949-9E13B36DA5D4} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 		{6CF52011-8065-430F-9510-9A7105D6A4CD} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
+		{E04A00B2-8EA8-4764-9CC0-6D303D6F7996} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D91E2F1-8C3D-4C02-A5E0-586810FA1B66}
