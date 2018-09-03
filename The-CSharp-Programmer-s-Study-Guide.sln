@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 14-Perform Deseri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectToDbUsingAdoNet", "ConnectToDbUsingAdoNet\ConnectToDbUsingAdoNet.csproj", "{6CD166D8-8E16-4660-859B-FE0C5C55F81A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorksAdoNetExamples", "AdventureWorksAdoNetExamples\AdventureWorksAdoNetExamples.csproj", "{902F34A4-1901-4A43-802D-F1A5DBB4CF1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{6CD166D8-8E16-4660-859B-FE0C5C55F81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CD166D8-8E16-4660-859B-FE0C5C55F81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CD166D8-8E16-4660-859B-FE0C5C55F81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902F34A4-1901-4A43-802D-F1A5DBB4CF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902F34A4-1901-4A43-802D-F1A5DBB4CF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902F34A4-1901-4A43-802D-F1A5DBB4CF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902F34A4-1901-4A43-802D-F1A5DBB4CF1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
