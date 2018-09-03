@@ -80,7 +80,7 @@ namespace Challenge_9_Perform_CRUD_Operation_using_LINQ_to_Object
             } while (!(input.Equals("y")) && !(input.Equals("n")));
             if (input.Equals("y"))
             {
-                throw new Exception("exit with code 0");
+                Environment.Exit(0);
             }
             MainMenuProcessor();
         }
