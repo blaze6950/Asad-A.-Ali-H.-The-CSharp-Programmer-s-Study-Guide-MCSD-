@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolService", "SchoolServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 16-Develop a SWF app and perform Salt hashing", "Challenge 16-Develop a SWF app and perform Salt hashing\Challenge 16-Develop a SWF app and perform Salt hashing.csproj", "{40B82EDB-6567-42B8-9058-C74DCAE2A6F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge 17-Install a .DLL to Global Assembly Cache", "Challenge 17-Install a .DLL to Global Assembly Cache\Challenge 17-Install a .DLL to Global Assembly Cache.csproj", "{DF9596EA-D50C-42AC-A31A-25D17E197B7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,10 @@ Global
 		{40B82EDB-6567-42B8-9058-C74DCAE2A6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40B82EDB-6567-42B8-9058-C74DCAE2A6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40B82EDB-6567-42B8-9058-C74DCAE2A6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF9596EA-D50C-42AC-A31A-25D17E197B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9596EA-D50C-42AC-A31A-25D17E197B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9596EA-D50C-42AC-A31A-25D17E197B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9596EA-D50C-42AC-A31A-25D17E197B7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +161,7 @@ Global
 		{4AC43E35-F1A5-4AF3-98E0-9DC817B237DB} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 		{2E956DB1-8A13-4896-B5DA-A07FB8728A68} = {4AC43E35-F1A5-4AF3-98E0-9DC817B237DB}
 		{40B82EDB-6567-42B8-9058-C74DCAE2A6F4} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
+		{DF9596EA-D50C-42AC-A31A-25D17E197B7B} = {B9871A1A-D616-4BF9-8625-2230D0D7284D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D91E2F1-8C3D-4C02-A5E0-586810FA1B66}
